@@ -23,3 +23,5 @@ rootProject.name = "04_09Chapter8 Event"
 include(":app")
 include(":ch9_resource")
 include(":ch10_dialog")
+include(":kakao_alarm")
+include(":zetpack")

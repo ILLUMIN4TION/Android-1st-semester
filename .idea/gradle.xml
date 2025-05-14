@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/ch10_dialog" />
             <option value="$PROJECT_DIR$/ch9_resource" />
+            <option value="$PROJECT_DIR$/kakao_alarm" />
+            <option value="$PROJECT_DIR$/zetpack" />
           </set>
         </option>
       </GradleProjectSettings>

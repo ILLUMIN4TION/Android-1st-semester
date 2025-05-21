@@ -14,7 +14,10 @@
             <option value="$PROJECT_DIR$/ch10_dialog" />
             <option value="$PROJECT_DIR$/ch9_resource" />
             <option value="$PROJECT_DIR$/kakao_alarm" />
+            <option value="$PROJECT_DIR$/kakao_alarm/zetpack2" />
             <option value="$PROJECT_DIR$/zetpack" />
+            <option value="$PROJECT_DIR$/zetpack2" />
+            <option value="$PROJECT_DIR$/zetpack_recyclerView" />
           </set>
         </option>
       </GradleProjectSettings>

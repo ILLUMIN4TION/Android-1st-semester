@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "권한이 거부되었습니다",Toast.LENGTH_SHORT).show()
             }
         }
+
         //주의사항 APi 레벨에 따른 호환성 문제 때문에 버전 체크를 해야함 API 레벨 33미만과 이상에서 분기처리
         binding.notificationButton.setOnClickListener{
             if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU){

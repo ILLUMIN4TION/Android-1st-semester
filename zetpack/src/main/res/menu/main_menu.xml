@@ -6,7 +6,7 @@
         android:id="@+id/menu1"
         android:title="메뉴1"
         app:showAsAction="never"/>
-
+<!-- never, ifRoom, always 차이점 기억하기-->
     <item
         android:id="@+id/menu2"
         android:title="메뉴2"

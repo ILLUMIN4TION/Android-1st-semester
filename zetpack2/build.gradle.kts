@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.zetpack"
+    namespace = "com.example.zetpack2"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.zetpack"
+        applicationId = "com.example.zetpack2"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -33,7 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    viewBinding.isEnabled = true
+    viewBinding.isEnabled=true
 }
 
 dependencies {

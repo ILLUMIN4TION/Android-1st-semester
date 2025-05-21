@@ -1,14 +1,16 @@
+import org.jetbrains.kotlin.gradle.utils.`is`
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
 }
 
 android {
-    namespace = "com.example.zetpack"
+    namespace = "com.example.recyclerview"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.zetpack"
+        applicationId = "com.example.recyclerview"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -33,7 +35,8 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    viewBinding.isEnabled = true
+
+    viewBinding.isEnabled=true
 }
 
 dependencies {
